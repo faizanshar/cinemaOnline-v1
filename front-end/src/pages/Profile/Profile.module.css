@@ -1,0 +1,111 @@
+.Container {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.ContentProfile {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  /* background-color: yellow; */
+  margin-top: 10px;
+}
+
+h3 {
+  color: white;
+}
+
+.ContentProfile img {
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.ContentProfile button {
+  width: 160px;
+  margin-top: 10px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgba(205, 46, 113, 1);
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.ContentBio {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.ContentBio h6 {
+  color: rgba(205, 46, 113, 1);
+}
+
+.ContentBio p {
+  color: rgba(97, 97, 97, 1);
+}
+
+/* Profile Group-Right */
+
+.GroupRight {
+  /* background-color: green; */
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.ContentHistory {
+  width: 80%;
+  height: 120px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(205, 46, 113, 0.44);
+  display: flex;
+  justify-content: space-between;
+}
+
+h6 {
+  color: white;
+}
+
+.TextTime {
+  color: white;
+  line-height: 20px;
+  font-size: 14px;
+  /* background-color: red; */
+}
+
+.TextPrice {
+  color: rgba(205, 46, 113, 1);
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.ContentStatus {
+  width: 120px;
+  height: 20px;
+  background-color: rgba(11, 156, 49, 0.2);
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContentStatus p {
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  align-self: center;
+  margin-top: 18px;
+  color: rgba(0, 255, 71, 1);
+}

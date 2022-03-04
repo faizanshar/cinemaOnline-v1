@@ -1,0 +1,49 @@
+.Container {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.label {
+  width: 140px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: rgba(210, 210, 210, 0.25);
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-around;
+  color: rgba(177, 177, 177, 1);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input {
+  background-color: rgba(210, 210, 210, 0.25);
+  margin-top: 20px;
+  color: white;
+}
+
+.groupButton {
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.groupButton button {
+    width: 150px;
+    height: 30px;
+    background-color: rgba(205, 46, 113, 1);
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+}

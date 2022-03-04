@@ -1,0 +1,267 @@
+/* MainContent */
+
+.ContainerMain {
+  display: flex;
+  justify-content: center;
+}
+
+.ContentMain {
+  width: 90%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  /* background-image: url("../../public/images/deadpool.png"); */
+}
+
+.ImageMain {
+  width: 100%;
+  height: 100%;
+}
+
+.GroupTextMain {
+  width: 90%;
+  height: 90%;
+}
+
+.h1Main {
+  color: white;
+}
+
+.h4CategoryMain {
+  color: white;
+  margin-top: 20px;
+}
+
+.h4PriceMain {
+  color: rgba(205, 46, 113, 1);
+  margin-top: 20px;
+}
+
+.h6DescMain {
+  color: white;
+  margin-top: 20px;
+  min-height: 50px;
+  /* background-color: red; */
+  max-width: 600px;
+}
+
+.ButtonMain {
+  border: none;
+  width: 100px;
+  height: 40px;
+  background-color: rgba(205, 46, 113, 1);
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* CartContent */
+
+.ContainerCart {
+  /* background-color: red; */
+}
+
+.h5Title {
+  color: white;
+  margin-top: 40px;
+}
+
+.ButtonContent {
+  width: 180px;
+  height: 250px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.ButtonContent img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ContentDetail */
+
+.ContentThumbnail {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.ContentDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.GroupTitle {
+  width: 100%;
+  min-height: 40px;
+  max-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Title {
+  min-width: "80%";
+  min-height: 40px;
+  max-height: 150px;
+  color: white;
+}
+
+.ButtonBuy {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: rgba(205, 46, 113, 1);
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.ContentVideo {
+  width: 100%;
+  height: 250px;
+  margin-top: 40px;
+  background-color: #191919;
+  border-radius: 5px;
+}
+
+.ButtonPlay {
+  position: absolute;
+  top: 300px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.ButtonPlay img {
+  width: 60px;
+  height: 60px;
+}
+
+.ContentCategory {
+  width: 100%;
+  height: 30px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: rgba(126, 126, 126, 1);
+}
+
+.ContentRp {
+  width: 100%;
+  height: 30px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: rgba(205, 46, 113, 1);
+}
+
+.ContentRp h6 {
+  color: rgba(205, 46, 113, 1);
+}
+
+.ContentDesc {
+  width: 100%;
+  min-height: 30px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: rgba(126, 126, 126, 1);
+}
+
+/* AdminContent */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  table-layout: fixed;
+}
+
+th {
+  background-color: rgba(31, 31, 31, 1);
+  color: rgba(229, 9, 20, 1);
+  font-size: 14px;
+  border-bottom-width: 1px;
+}
+
+td {
+  color: white;
+  font-size: 14px;
+  border-bottom-width: 1px;
+  /* padding: 100px; */
+}
+
+.Group1 {
+  background-color: rgba(43, 43, 43, 1);
+}
+
+.Group2 {
+  background-color: rgba(31, 31, 31, 1);
+}
+
+.thNo {
+  padding: 8px;
+  width: 5%;
+  word-wrap: break-word;
+  /* background-color: red; */
+}
+.thUsers {
+  padding: 8px;
+  width: 15%;
+  word-wrap: break-word;
+  /* background-color: yellow; */
+}
+.thBukti {
+  padding: 8px;
+  width: 18%;
+  word-wrap: break-word;
+  /* background-color: white; */
+}
+.thFilm {
+  padding: 8px;
+  width: 18%;
+  word-wrap: break-word;
+  /* background-color: green; */
+}
+.thNumber {
+  padding: 8px;
+  width: 18%;
+  word-wrap: break-word;
+  /* background-color: purple; */
+}
+.thStatus {
+  padding: 8px;
+  width: 18%;
+  word-wrap: break-word;
+  /* background-color: rosybrown; */
+}
+.thAction {
+  padding: 8px;
+  width: 7%;
+  word-wrap: break-word;
+  /* background-color: purple; */
+}

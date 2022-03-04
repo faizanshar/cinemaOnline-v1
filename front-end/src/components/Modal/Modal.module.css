@@ -1,0 +1,87 @@
+.BodyModal {
+  background-color: rgba(13, 13, 13, 1);
+  padding: 20px;
+}
+
+.ModalHeader {
+  background-color: rgba(13, 13, 13, 1);
+  border: none;
+}
+
+.ModalHeaderTrans {
+  background-color: rgba(13, 13, 13, 1);
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  background-color: rgba(210, 210, 210, 0.25);
+  margin-bottom: 20px;
+  color: white;
+}
+
+.BodyModal button {
+  width: 100%;
+  background-color: rgba(205, 46, 113, 1);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.BodyModal div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+  /* color: rgba(177, 177, 177, 1); */
+}
+
+.BodyModal div a {
+  margin-left: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+h5 {
+  color: #ffffff;
+}
+
+/* ModalTransaction */
+
+.ButtonPickImage {
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgba(205, 46, 113, 1);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.ButtonPickImage img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.input2 {
+  background-color: rgba(210, 210, 210, 0.25);
+  margin-bottom: 10px;
+  color: white;
+}
+
+.ContentImgSend {
+  min-width: 60px;
+  max-width: 150px;
+  height: 60px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}

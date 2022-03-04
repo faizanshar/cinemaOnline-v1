@@ -1,0 +1,109 @@
+.Container {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.Content1 {
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.label1 {
+  width: 180px;
+  height: 40px;
+  background-color: rgba(210, 210, 210, 0.25);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(177, 177, 177, 1);
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.GroupThumbnail {
+  width: 100%;
+  min-height: 120px;
+  max-height: 130px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.thumbnailpre {
+  min-width: 60px;
+  min-width: 80px;
+  min-height: 120px;
+  max-height: 130px;
+}
+
+.posterpre {
+  min-width: 60px;
+  min-width: 80px;
+  min-height: 120px;
+  max-height: 130px;
+  margin-top: 20px;
+}
+
+label img {
+  width: 15px;
+  height: 25px;
+}
+
+.input {
+  background-color: rgba(210, 210, 210, 0.25);
+  margin-top: 20px;
+}
+
+select {
+  width: 100%;
+  background-color: rgba(210, 210, 210, 0.25);
+  color: rgba(177, 177, 177, 1);
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.label2 {
+  width: 100%;
+  height: 37px;
+  background-color: rgba(210, 210, 210, 0.25);
+  margin-top: 20px;
+  border-radius: 5px;
+  color: rgba(177, 177, 177, 1);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.buttonGroup {
+  width: 100%;
+  height: 40px;
+  /* background-color: red; */
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.buttonGroup button {
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: rgba(205, 46, 113, 1);
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+}
